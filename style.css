@@ -4,8 +4,12 @@
     font-family: 'Courier New', Courier, monospace;
     box-sizing: border-box;
 }
+html,
 body{
-    background:#d6846b;
+    min-height: 100vh;
+}
+body{
+    background: linear-gradient(135deg, #ab5660, #4ba28b);
 }
 .container{
     width: 400px;
@@ -25,7 +29,7 @@ body{
 .container input{
     width:100%;
     height: 50px;
-    border: 1px solid #494eea;
+     border: 1px solid #5b5fe9;
     outline: 0;
     padding: 10px;
     margin: 10px 0 20px 0;
@@ -37,7 +41,7 @@ body{
     height: 50px;
     border: 0;
     outline: 0;
-    background: #494eea;
+  background: #5b5fe9;
     color: #fff;
     font-size: 16px;
     font-weight: 600;
